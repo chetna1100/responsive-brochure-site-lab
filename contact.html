@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chetna's Veg Kitchen</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo-nav">
+          <a href="index.html"
+            ><h1 class="logo">Chetna's <br />Veg Kitchen</h1></a
+          >
+        </div>
+        <div class="main-nav">
+          <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Recipes
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="recipes.html">Low Cal Dal Makhani</a>
+                <a href="recipes.html">Shahi Paneer Without Cream</a>
+                <a href="recipes.html">Cheese Pizza Homemade</a>
+                <a href="recipes.html">Pizza With Readymade Base</a>
+                <a href="recipes.html">Quick Kheer</a>
+                <a href="recipes.html">Dal Bati Recipe In Microwave Oven</a>
+              </div>
+            </div>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+              >&#9776;</a
+            >
+          </div>
+        </div>
+      </nav>
+      <header class="banner">
+        <img src="images/contact-banner.html" alt="Veg Kitchin" />
+      </header>
+
+      <article class="content medium-fade shadow">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+          </div>
+        <div class="flex-par">
+            <div class="container">
+                
+                <div class="clearfix">
+                    <div class="container">
+                        <form action="/action_page.php">
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                        </form>
+                      </div>
+                      
+                </div>
+              </div>
+        </div>
+      
+      </article>
+      <aside class="side light-fade">
+        <h3>Popular Recipes</h3>
+        <ul>
+          <li><a href="#">Low Cal Dal Makhani</a></li>
+          <li><a href="#">Shahi Paneer Without Cream</a></li>
+          <li><a href="#">Cheese Pizza Homemade</a></li>
+          <li><a href="#">Pizza With Readymade Base</a></li>
+          <li><a href="#">Quick Kheer</a></li>
+          <li><a href="#">Dal Bati Recipe In Microwave Oven</a></li>
+        </ul>
+      </aside>
+      <div class="baking light-fade">
+        <h3>Baking Recipes</h3>
+        <div class="flex-par">
+          <div class="flex-ch-baking">
+            <img
+              src="images/eggless-chocolate-cake-1-280x280.webp" alt="eggless-chocolate"
+            />
+            <p>Eggless Chocolate Cake Recipe</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img
+              src="images/banana-bread-1-280x280.webp" alt="banana-bread"
+            />
+            <p>Banana Bread (Eggless And Vegan)</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img
+              src="images/pizza-recipe-280x280.jpg" alt="pizza-recipe"
+            />
+            <p>Pizza Recipe | Veg Pizza</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img
+              src="images/eggless-chocolate-chip-cookies-1-280x280.webp" alt="eggless-chocolate-chip-cookies"
+            />
+          <p>Eggless Chocolate Chip Cookies</p>
+      
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer light-fade">
+        <div class="footerLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contact.htnl">Contact&nbsp;Us</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2022 Chetna's Veg Kitchen. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

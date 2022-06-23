@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chetna's Veg Kitchen</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="logo-nav">
+          <a href="index.html"
+            ><h1 class="logo">Chetna's <br />Veg Kitchen</h1></a
+          >
+        </div>
+        <div class="main-nav">
+          <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Recipes
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="recipes.html">Low Cal Dal Makhani</a>
+                <a href="recipes.html">Shahi Paneer Without Cream</a>
+                <a href="recipes.html">Cheese Pizza Homemade</a>
+                <a href="recipes.html">Pizza With Readymade Base</a>
+                <a href="recipes.html">Quick Kheer</a>
+                <a href="recipes.html">Dal Bati Recipe In Microwave Oven</a>
+              </div>
+            </div>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+              >&#9776;</a
+            >
+          </div>
+        </div>
+      </nav>
+      <header class="banner">
+        <img src="images/about-banner.jpg" alt="Veg Kitchin" />
+      </header>
+
+      <article class="content medium-fade shadow">
+        <h2>About</h2>
+        <p>
+          India has the world's largest number of vegetarians. Vegetarianism has
+          been present in India since antiquity although a non-vegetarian
+          diet may be present even on the highest priest caste. Many Indians
+          who do not regularly follow a vegetarian diet may adopt one during
+          religious festivals. Also, many Indian vegetarians
+          eschew eggs as well as meat. There are many vegetarian cuisines across
+          India.
+        </p>
+        
+      </article>
+      <aside class="side light-fade">
+        <h3>Popular Recipes</h3>
+        <ul>
+          <li><a href="#">Low Cal Dal Makhani</a></li>
+          <li><a href="#">Shahi Paneer Without Cream</a></li>
+          <li><a href="#">Cheese Pizza Homemade</a></li>
+          <li><a href="#">Pizza With Readymade Base</a></li>
+          <li><a href="#">Quick Kheer</a></li>
+          <li><a href="#">Dal Bati Recipe In Microwave Oven</a></li>
+        </ul>
+      </aside>
+      <div class="baking light-fade">
+        <h3>Baking Recipes</h3>
+        <div class="flex-par">
+          <div class="flex-ch-baking">
+            <img
+              src="images/eggless-chocolate-cake-1-280x280.webp"
+              alt="eggless-chocolate"
+            />
+            <p>Eggless Chocolate Cake Recipe</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img src="images/banana-bread-1-280x280.webp" alt="banana-bread" />
+            <p>Banana Bread (Eggless And Vegan)</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img src="images/pizza-recipe-280x280.jpg" alt="pizza-recipe" />
+            <p>Pizza Recipe | Veg Pizza</p>
+          </div>
+          <div class="flex-ch-baking">
+            <img
+              src="images/eggless-chocolate-chip-cookies-1-280x280.webp"
+              alt="eggless-chocolate-chip-cookies"
+            />
+            <p>Eggless Chocolate Chip Cookies</p>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer light-fade">
+        <div class="footerLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contact.htnl">Contact&nbsp;Us</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2022 Chetna's Veg Kitchen. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
